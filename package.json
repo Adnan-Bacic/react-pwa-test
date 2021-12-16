@@ -2,6 +2,7 @@
   "name": "react-pwa-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adnanbacic.dk/folders/react/react-pwa-test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
