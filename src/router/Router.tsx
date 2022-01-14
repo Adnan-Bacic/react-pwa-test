@@ -7,7 +7,7 @@ import {
 import * as Pages from '../pages';
 import Navbar from '../navigation/Navbar';
 
-function Router() {
+const Router = () => {
   return (
     <BrowserRouter basename="/folders/react/react-pwa-test/">
       <Navbar />
