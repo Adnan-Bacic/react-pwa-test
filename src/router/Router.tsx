@@ -6,9 +6,12 @@ import {
 } from 'react-router-dom';
 import * as Pages from '../pages';
 import Navbar from '../navigation/Navbar';
+import { Footer } from '../components'
 
 const Router = () => {
+  console.log(process.env)
   return (
+    <>
     <BrowserRouter basename="/folders/react/react-pwa-test/">
       <Navbar />
       <Routes>
@@ -21,6 +24,8 @@ const Router = () => {
         <Route path="*" element={<Pages.NotFound />} />
       </Routes>
     </BrowserRouter>
+    <Footer></Footer>
+    </>
   );
 }
 
