@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import { items } from '../data';
 
 const Items = () => {
-  const navigate = useNavigate()
   return (
     <div className='flex'>
     <div className='flex-1'>

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import { items } from '../data';
 
-const Item = (props) => {
+const Item = (props: any) => {
   console.log('props', props)
   //const [test, setTest] = useState<number>('1')
   const params: any = useParams();

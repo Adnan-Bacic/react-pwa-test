@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, Outlet, useNavigate, useParams } from 'react-router-dom';
-import { items } from '../data';
+import { useParams } from 'react-router-dom';
 
 const Item2 = () => {
   const params = useParams()
