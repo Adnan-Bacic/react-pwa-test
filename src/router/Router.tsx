@@ -17,6 +17,7 @@ const Router = () => {
         <Route path="items" element={<Pages.Items />}>
           <Route path=":id" element={<Pages.Item />} />
         </Route>
+        <Route path="item2/:id" element={<Pages.Item2 />} />
         <Route path="*" element={<Pages.NotFound />} />
       </Routes>
     </BrowserRouter>
