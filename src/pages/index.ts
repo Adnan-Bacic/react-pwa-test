@@ -3,11 +3,11 @@ import About from "./About";
 import NotFound from "./NotFound";
 import Items from "./Items";
 import Item from "./Item";
-import Item2 from "./Item2";
+import ItemsOutlet from "./ItemsOutlet";
 
 export {
     Home,
     About,
     NotFound,
-    Items, Item, Item2,
+    Items, Item, ItemsOutlet,
 }

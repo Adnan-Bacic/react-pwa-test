@@ -17,10 +17,11 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Pages.Home />} />
         <Route path="about" element={<Pages.About />} />
-        <Route path="items" element={<Pages.Items />}>
+        <Route path="items" element={<Pages.Items />} />
+        <Route path="items/:id" element={<Pages.Item />} />
+        <Route path="itemsOutlet" element={<Pages.ItemsOutlet />} >
           <Route path=":id" element={<Pages.Item />} />
         </Route>
-        <Route path="item2/:id" element={<Pages.Item2 />} />
         <Route path="*" element={<Pages.NotFound />} />
       </Routes>
     </BrowserRouter>
